@@ -25,7 +25,7 @@
 .slicknav_menu:before{
 	float: left;
 	height: 40px;
-	background: url(../images/logo_shosyn.png)no-repeat;\
+	background: url(/images/logo_shosyn.png)no-repeat;\
 	text-indent:-9999px;
 	background-size:107px;
 	width: 107px;

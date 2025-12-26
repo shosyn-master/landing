@@ -24,8 +24,8 @@ body{
 	width: 100%;
 	overflow: hidden;
 	height:100%;
-	//background: url(../images/bgTop_imsi.jpg) center center no-repeat;
-	background: url(../images/bgTop_aurora.jpg) center center no-repeat;
+	//background: url(/images/bgTop_imsi.jpg) center center no-repeat;
+	background: url(/images/bgTop_aurora.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -39,7 +39,7 @@ body{
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	/* background: url(../images/sliderL.png) center center no-repeat; */
+	/* background: url(/images/sliderL.png) center center no-repeat; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -75,7 +75,7 @@ body{
 .logo a {
 	display:block;
 	width:107px;
-	background: url(../images/logo_shosyn.png) center center no-repeat;
+	background: url(/images/logo_shosyn.png) center center no-repeat;
 	text-indent:-9999px;
 	background-size:107px
 	
@@ -241,7 +241,7 @@ border: none;
 }
 
 /*.camera_target_content { 
-	background: url(../images/bgTop_text02.png) center 18% no-repeat;
+	background: url(/images/bgTop_text02.png) center 18% no-repeat;
 	background-size:100%;
 	min-width:250px;
 	max-width:530px;
@@ -384,7 +384,7 @@ border: none;
 		border-bottom:none;
 	}*/
 	.camera_target_content {
-		//background: url(../images/bgTop_text.png) center 18% no-repeat;
+		//background: url(/images/bgTop_text.png) center 18% no-repeat;
 		background-position:center top;
 	}
 }
@@ -440,7 +440,7 @@ border: none;
 	position: absolute;
 	width: 100%;
 	top: 418px;
-	background: url(../images/sliderL.png) no-repeat;
+	background: url(/images/sliderL.png) no-repeat;
 }
 /**/
 .project{
@@ -503,7 +503,7 @@ border: none;
 /**/
 /*.line2{
 	height:496px;
-	background:url(../images/line2.png)no-repeat;
+	background:url(/images/line2.png)no-repeat;
 	margin-top: -10px;
 }*/
 .line2{
@@ -512,9 +512,9 @@ border: none;
 	overflow: hidden;
 	/*height:100%;*/
 	height:100%;
-	/*background: url(../images/bgTop.jpg) center center no-repeat;*/
+	/*background: url(/images/bgTop.jpg) center center no-repeat;*/
 	background:#132e55;
-	/*background:url(../images/line2.png) center center no-repeat;*/
+	/*background:url(/images/line2.png) center center no-repeat;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -529,7 +529,7 @@ border: none;
 	left: 0;
 	width: 100%;
 	/*height: 240px;*/
-	/*background: url(../images/sliderL.png) center center no-repeat;*/
+	/*background: url(/images/sliderL.png) center center no-repeat;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -547,7 +547,7 @@ border: none;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	/* background: url(../images/sliderL.png) center center no-repeat; */
+	/* background: url(/images/sliderL.png) center center no-repeat; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -561,7 +561,7 @@ border: none;
 
  .Des .fa-heart{
 	//margin-left: -14px;
-	background: url(../images/cir.png) no-repeat;
+	background: url(/images/cir.png) no-repeat;
 	padding: 26px;
 	font-size: 24px;
 	color: #fff;
@@ -591,7 +591,7 @@ border: none;
 }
 .fa-cog {
 	margin-left: 2px;
-	background: url(../images/cir.png) no-repeat;
+	background: url(/images/cir.png) no-repeat;
 	padding: 26px;
 	font-size: 24px;
 	color: #fff;
@@ -610,7 +610,7 @@ border: none;
 .fa-tablet{
 	//margin-left: 20px;
 	width:73px;
-	background: url(../images/cir.png) no-repeat;
+	background: url(/images/cir.png) no-repeat;
 	padding: 26px;
 	font-size: 24px;
 	color: #fff;
@@ -879,7 +879,7 @@ border: none;
 	//top: 55px;
 	content: '';
 	z-index: 30;
-	background: url(../images/horL.png) no-repeat;
+	background: url(/images/horL.png) no-repeat;
 }
 /**/
 .line3{
@@ -887,9 +887,9 @@ border: none;
 	width: 100%;
 	overflow: hidden;
 	height:100%;
-	/*background: url(../images/bgTop.jpg) center center no-repeat;*/
+	/*background: url(/images/bgTop.jpg) center center no-repeat;*/
 	background:#132e55;
-	/*background: url(../images/line3Bg.jpg) center center no-repeat;*/
+	/*background: url(/images/line3Bg.jpg) center center no-repeat;*/
 	/*background:#3f2d28;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -906,7 +906,7 @@ border: none;
 	left: 0;
 	width: 100%;
 	height: 240px;
-	/*background: url(../images/sliderL.png) center center no-repeat;*/
+	/*background: url(/images/sliderL.png) center center no-repeat;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -924,7 +924,7 @@ border: none;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	/* background: url(../images/sliderL.png) center center no-repeat; */
+	/* background: url(/images/sliderL.png) center center no-repeat; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -985,7 +985,7 @@ border: none;
 }
 
 .companyBg {
-	background: url(../images/company.png) bottom right no-repeat;
+	background: url(/images/company.png) bottom right no-repeat;
 	background-size:45%;
 }
 .Ama .companyCont {
@@ -1313,9 +1313,9 @@ border: none;
 	width: 100%;
 	overflow: hidden;
 	height:100%;
-	//background: url(../images/bgTop.jpg) center center no-repeat;
+	//background: url(/images/bgTop.jpg) center center no-repeat;
 	background:#132e55;
-	/*background: url(../images/line4.png) center center no-repeat;*/
+	/*background: url(/images/line4.png) center center no-repeat;*/
 	/*background:#3f2d28;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1332,7 +1332,7 @@ border: none;
 	left: 0;
 	width: 100%;
 	height: 240px;
-	/*background: url(../images/sliderL.png) center center no-repeat;*/
+	/*background: url(/images/sliderL.png) center center no-repeat;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1350,7 +1350,7 @@ border: none;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	/* background: url(../images/sliderL.png) center center no-repeat; */
+	/* background: url(/images/sliderL.png) center center no-repeat; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1473,8 +1473,8 @@ border: none;
 	overflow: hidden;
 	height:420px;
 	background:#132e55;	
-	background: url(../images/bgMiddle_company.jpg) center center no-repeat;
-	/*background: url(../images/line5Bg.jpg) center center no-repeat;	*/
+	background: url(/images/bgMiddle_company.jpg) center center no-repeat;
+	/*background: url(/images/line5Bg.jpg) center center no-repeat;	*/
 	/*background:#3f2d28;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1490,7 +1490,7 @@ border: none;
 	left: 0;
 	width: 100%;
 	height: 240px;
-	/*background: url(../images/sliderL.png) center center no-repeat;*/
+	/*background: url(/images/sliderL.png) center center no-repeat;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1508,7 +1508,7 @@ border: none;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	/* background: url(../images/sliderL.png) center center no-repeat; */
+	/* background: url(/images/sliderL.png) center center no-repeat; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1752,7 +1752,7 @@ textarea {
 	overflow: hidden;
 	max-height:100%;
 	//background:#3f2d28;
-	background: url(../images/line7Bg.jpg) center center no-repeat;
+	background: url(/images/line7Bg.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1768,7 +1768,7 @@ textarea {
 	left: 0;
 	width: 100%;
 	height: 184px;
-	background: url(../images/bgFooter.png) no-repeat;
+	background: url(/images/bgFooter.png) no-repeat;
 }*/
 
 .line7:before{
@@ -1781,7 +1781,7 @@ textarea {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	/* background: url(../images/sliderL.png) center center no-repeat; */
+	/* background: url(/images/sliderL.png) center center no-repeat; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1874,7 +1874,7 @@ textarea {
 	display: inline-block;
 	height: 17px;
 	width: 17px;
-	background: url(../images/socIcons.png)no-repeat;
+	background: url(/images/socIcons.png)no-repeat;
 	margin-top: 15px;
 	margin-left: 2px;
 }
@@ -1889,7 +1889,7 @@ textarea {
 }
 .soc1 a:hover{
 	border:0;
-	background: url(../images/socIcons.png)no-repeat;
+	background: url(/images/socIcons.png)no-repeat;
 	box-shadow: none;
 }
 .soc1:hover{
@@ -1901,7 +1901,7 @@ textarea {
 	display: inline-block;
 	height: 17px;
 	width: 17px;
-	background: url(../images/socIcons.png) -74px 0 no-repeat;
+	background: url(/images/socIcons.png) -74px 0 no-repeat;
 	margin-top: 15px;
 	margin-left: 2px;
 }
@@ -1913,7 +1913,7 @@ textarea {
 }
 .soc2 a:hover{
 	border:0;
-	background: url(../images/socIcons.png) -74px 0 no-repeat;
+	background: url(/images/socIcons.png) -74px 0 no-repeat;
 	box-shadow: none;
 }
 .soc2:hover{
@@ -1925,7 +1925,7 @@ textarea {
 	display: inline-block;
 	height: 19px;
 	width: 19px;
-	background: url(../images/socIcons.png) -147px 0 no-repeat;
+	background: url(/images/socIcons.png) -147px 0 no-repeat;
 	margin-top: 15px;
 	margin-left: 0px;
 }
@@ -1937,7 +1937,7 @@ textarea {
 }
 .soc3 a:hover{
 	border:0;
-	background: url(../images/socIcons.png) -147px 0 no-repeat;
+	background: url(/images/socIcons.png) -147px 0 no-repeat;
 	box-shadow: none;
 }
 .soc3:hover{
@@ -1949,7 +1949,7 @@ textarea {
 	display: inline-block;
 	height: 19px;
 	width: 19px;
-	background: url(../images/socIcons.png) -221px 0 no-repeat;
+	background: url(/images/socIcons.png) -221px 0 no-repeat;
 	margin-top: 15px;
 	margin-left: 0px;
 }
@@ -1961,7 +1961,7 @@ textarea {
 }
 .soc4 a:hover{
 	border:0;
-	background: url(../images/socIcons.png) -221px 0 no-repeat;
+	background: url(/images/socIcons.png) -221px 0 no-repeat;
 	box-shadow: none;
 }
 .soc4:hover{
@@ -1973,7 +1973,7 @@ textarea {
 	display: inline-block;
 	height: 19px;
 	width: 19px;
-	background: url(../images/socIcons.png) -293px 0 no-repeat;
+	background: url(/images/socIcons.png) -293px 0 no-repeat;
 	margin-top: 15px;
 	margin-left: 0px;
 }
@@ -1985,7 +1985,7 @@ textarea {
 }
 .soc5 a:hover{
 	border:0;
-	background: url(../images/socIcons.png) -293px 0 no-repeat;
+	background: url(/images/socIcons.png) -293px 0 no-repeat;
 	box-shadow: none;
 }
 .soc5:hover{
@@ -1997,7 +1997,7 @@ textarea {
 	display: inline-block;
 	height: 19px;
 	width: 19px;
-	background: url(../images/socIcons.png) -368px 0 no-repeat;
+	background: url(/images/socIcons.png) -368px 0 no-repeat;
 	margin-top: 15px;
 	margin-left: 0px;
 }
@@ -2009,7 +2009,7 @@ textarea {
 }
 .soc6 a:hover{
 	border:0;
-	background: url(../images/socIcons.png) -368px 0 no-repeat;
+	background: url(/images/socIcons.png) -368px 0 no-repeat;
 	box-shadow: none;
 }
 .soc6:hover{
@@ -2021,7 +2021,7 @@ textarea {
 	display: inline-block;
 	height: 19px;
 	width: 19px;
-	background: url(../images/socIcons.png) -442px 0 no-repeat;
+	background: url(/images/socIcons.png) -442px 0 no-repeat;
 	margin-top: 15px;
 	margin-left: 0px;
 }
@@ -2033,7 +2033,7 @@ textarea {
 }
 .soc7 a:hover{
 	border:0;
-	background: url(../images/socIcons.png) -442px 0 no-repeat;
+	background: url(/images/socIcons.png) -442px 0 no-repeat;
 	box-shadow: none;
 }
 .soc7:hover{
@@ -2045,7 +2045,7 @@ textarea {
 	display: inline-block;
 	height: 19px;
 	width: 19px;
-	background: url(../images/socIcons.png) -516px 0 no-repeat;
+	background: url(/images/socIcons.png) -516px 0 no-repeat;
 	margin-top: 15px;
 	margin-left: 0px;
 }
@@ -2057,7 +2057,7 @@ textarea {
 }
 .soc8 a:hover{
 	border:0;
-	background: url(../images/socIcons.png) -516px 0 no-repeat;
+	background: url(/images/socIcons.png) -516px 0 no-repeat;
 	box-shadow: none;
 }
 .soc8:hover{
@@ -2074,7 +2074,7 @@ textarea {
 	height: 259px;
 
 	
-	//background: url(../images/bgFooter.png)  no-repeat;
+	//background: url(/images/bgFooter.png)  no-repeat;
 	background: #101010;
 }
 .downLine{
@@ -2097,7 +2097,7 @@ textarea {
 	left: 0;
 	width: 100%;
 	height: 178px;
-	//background: url(../images/bgBeforFooter.png) center center no-repeat;
+	//background: url(/images/bgBeforFooter.png) center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
