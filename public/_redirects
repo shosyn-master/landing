@@ -1,0 +1,10 @@
+# 실제 존재하는 정적 파일(이미지, CSS 등)은 리다이렉트 제외
+/cdn-cgi/* /cdn-cgi/:splat  200
+/css/* /css/:splat  200
+/images/* /images/:splat  200
+/js/* /js/:splat   200
+/mobile/css/* /mobile/css/:splat  200
+/mobile/img/* /mobile/img/:splat  200
+
+# 그 외의 모든 404 경로는 index.html로 리다이렉트
+/* /index.html  200
