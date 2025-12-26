@@ -1,0 +1,150 @@
+/*쇼신가*/
+@charset "UTF-8";
+.fixed_top { position:fixed; top:52px; left:0; width:100%; z-index:99991;}
+.fixed_top_buff { margin-bottom:44px}
+
+.shosynPrice {}
+/*공통*/
+.shosynPrice .moreArrow {display: inline-block; width: 6px; height: 6px; border: 2px solid #ccc; border-bottom: none; border-left: none; transform: rotate(135deg); -webkit-transform: rotate(135deg); content: "";}
+.shosynPrice .moreArrowReverse {border-bottom: 2px solid #ccc; border-left: 2px solid #ccc; border-top: none; border-right: none;}
+	
+/*로딩바*/
+.shosynPrice .detailLoadingWarp {position: absolute; top: 0; left: 0; width: 100%; height: 50px; background: rgba(255,255,255,0.7); z-index: 99;}
+.shosynPrice .detailLoadingWarp .detailLoading {margin: 0 auto; height: 100%;}
+.loading {display: block; width: 16px; height: 11px; background: url(../img/loading_bar.gif) no-repeat center center; background-size: 100%; text-indent: -999999px;}
+
+.shosynPriceWarp {margin:0 5px;}
+
+.shosynPrice .info {position:relative; padding: 5px 0 0 0;}
+.shosynPrice .info span {}
+.shosynPrice .info .text i {position: absolute; left: 0; display: inline-block; width: 24px; height: 14px; text-align:center; -moz-border-radius: 50%; background-size: 90%; background: #e22962; color: #fff; font-size: 8px; font-style: normal;}
+.shosynPrice .info .text {position:relative; display: block; margin: 0 5px; margin-bottom:5px; color: #c77890; font-size: 0.95em; padding-left: 28px; line-height:13px; cursor:pointer;}
+/*.shosynPrice .info .text i {position: absolute; left:0; display: inline-block; width: 14px; height: 14px; margin-right: 5px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; background: #e22962 url(../img/icon_notice_red.png) no-repeat center center; background-size: 90%; text-indent: -9999px;}	
+.shosynPrice .info .text {position:relative; display: block; margin: 0 5px; margin-bottom:5px; color: #c77890; font-size: 0.95em; padding-left: 20px; line-height:13px; cursor:pointer;}*/
+.shosynPrice .info .text .more {margin-left: 5px; color: #e22861;}
+.shosynPrice .info .moreDetail {top: 6px; left: 25px;}
+.shosynPrice .info .moreDetail a {}
+.shosynPrice .info .moreDetail a:before {content: "";}
+.shosynPrice .info .moreDetail a:after {content: "";}
+.shosynPrice .info .moreDetail a span {}
+
+.shosynPrice .priceSummary {position:relative; border: 1px solid #e6e6e6; margin-bottom:10px;}
+
+.shosynPrice .priceSummary .priceHaveWarp {display:none;}
+.shosynPrice .priceSummary .priceHaveWarp.support {display:block;}
+
+.shosynPrice .priceSummary .priceAll {position: relative; background: #efefef; height: 35px; line-height: 35px; padding: 0 5px; color: #777; font-weight: bold; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; word-wrap: break-word !important; white-space: normal; }
+.shosynPrice .priceSummary .priceAll .option {}
+.shosynPrice .priceSummary .priceAll .nooption:before {content:"옵션없음"}
+.shosynPrice .priceSummary .priceAll .count {}
+.shosynPrice .priceSummary .priceAll .purchase {position: absolute; top: 0; right: 0; padding: 0 5px 0 10px; font-weight: normal; font-size: 12px; background: #efefef;}
+
+.shosynPrice .priceSummary .priceAll .purchase em {margin-left: 3px;}	
+
+.shosynPrice .priceSummary .priceHave {display: table; width: 100%; min-height: 60px; padding: 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.shosynPrice .priceSummary .priceHave li {display: table-cell; vertical-align: middle;}	
+.shosynPrice .priceSummary .priceHave .spriceBox {}
+.shosynPrice .priceSummary .priceHave .spriceBox .soldOut {}
+.shosynPrice .priceSummary .priceHave .spriceBox .soldOut .title {font-size:14px; font-weight:bold; margin-right:5px;}
+.shosynPrice .priceSummary .priceHave .spriceBox .sprice {height: 22px;}
+.shosynPrice .priceSummary .priceHave .spriceBox .sprice .title {font-size: 1.1666666666666667rem; color: #ff6666; font-weight: normal;}
+.shosynPrice .priceSummary .priceHave .spriceBox .sprice .price {font-size: 1.3333333333333333rem; font-weight: bold; margin-left:5px;}
+.shosynPrice .priceSummary .priceHave .spriceBox .sprice .price em {font-size: 0.9166666666666666rem; margin-left:2px;}
+.shosynPrice .priceSummary .priceHave .spriceBox .discount {}
+.shosynPrice .priceSummary .priceHave .spriceBox .discount .rate {color: #ff6666; font-weight: bold; }
+.shosynPrice .priceSummary .priceHave .spriceBox .discount .price {margin-left: 5px; margin-right:3px;}
+.shosynPrice .priceSummary .priceHave .spriceBox .discount .noPrice {color: #999;}
+.shosynPrice .priceSummary .priceHave .spriceBox .discount .shippingFee {display:inline-block; color: #999;
+   }
+.shosynPrice .priceSummary .priceHave .updateBox {width: 110px; text-align: right;}
+.shosynPrice .priceSummary .priceHave .updateBox .date {display: inline-block;
+    margin-bottom: 5px; color:#80a8bf; }
+.shosynPrice .priceSummary .priceHave .updateBox .buttonWrap {position: relative; }
+.shosynPrice .priceSummary .priceHave .updateBox .buttonWrap button {display: inline-block; width: 90px; height: 25px; border: 1px solid #5f7d8c; border-radius: 2px; color: #e0fcff; font-size: 14px; background: #7692a0; line-height: 23px; text-align: center; box-sizing: border-box; -webkit-box-sizing: border-box;}
+
+.shosynPrice .priceSummary .priceHave .updateBox .buttonWrap .reload {position: absolute; top: -2px; left: 0; width: 25px;}
+.shosynPrice .priceSummary .priceHave .updateBox .buttonWrap .reload button {position: relative; background: #fb852f; border: 1px solid #e6701b; height: 35px; line-height: inherit; color: #fff9f4;}
+.shosynPrice .priceSummary .priceHave .updateBox .buttonWrap .reload button:before {display: block; width: 20px; height: 20px; border: 1px solid #e6701b; border-radius: 50%; background: #fb852f url(../img/icon_shosynprice_reload_ani.png) no-repeat center center; background-size: 90%; cursor: default; content: ""; position: absolute; top: 7px; left: -11px;}	
+.shosynPrice .priceSummary .priceHave .updateBox .buttonWrap .reload button .sumIng {font-size: 10px;}
+.shosynPrice .priceSummary .priceHave .updateBox .buttonWrap .reload button .sumIng b {display: block; font-size: 14px; font-weight:normal;}
+
+
+.shosynPrice .priceSummary .priceHave .moreButt {width: 0px; text-align: center;}
+.shosynPrice .priceSummary .priceHave .moreButt button {position: absolute; top: 78px; left: 50%; margin-left: -12px; border-radius: 50%; background: #999; width: 25px; height: 25px; line-height: 23px; z-index:1;}
+.shosynPrice .priceSummary .priceHave .moreButt button i {border-color: #fff;}	
+.shosynPrice .priceSummary .priceHave .moreButt button span {display:none;}
+
+.shosynPrice .priceSummary .priceDetail {}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox.noDiscount {border: none; background: #f3fdfd; color: #447b7b; border-top: 1px solid #e2f3f3;text-align: center;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox {position:relative; background: #f0f0f0; height: 30px; line-height: 30px; padding: 0 5px; border-top: 1px solid #d8d8d8; background: #f9f9f9;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .num {border: 1px solid #adadad; padding: 0 5px; background: #ececec; color: #5a5a5a; margin-right:3px;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .recomm {color: #fff;border: 1px solid #999; padding: 0 3px; background: #999;}	
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .sprice {}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .sprice .title {color: #ff6666; margin-right: 5px;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .sprice .price {font-size: 13px; font-weight: bold; margin-right: 5px;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .sprice .price em {font-weight: normal;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .rate {}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .rate b {color: #ff6666; font-weight: bold;margin-right: 5px;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .buttonWrap {position: absolute; right: 10px;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .buttonWrap button {line-height:28px}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .buttonWrap i {border: 1px solid #999; border-bottom: none; border-left: none;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox .buttonWrap span {display:none;}
+
+.shosynPrice .priceSummary .priceDetail .detailTextBox {padding:10px 5px 5px 5px;background: #f5f9fb;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox li {display:table; width:100%;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox li div {display:table-cell;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox li div:last-of-type {width: 50px; text-align: center; vertical-align: middle;color: #999;}
+
+.shosynPrice .priceSummary .priceDetail .detailTextBox .textBoxWrap {margin-bottom: 10px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .textBox {color: #6395e2;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .textBox span {margin-right: 5px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .priceText {}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contentsWrap {border-top: 1px dotted #e0e0e0; padding: 5px 0;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents {padding-right: 10px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .explan {}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .explan button {margin-left: 5px; font-size: 11px; padding: 0 3px; line-height: 15px; color: #8e999e;vertical-align: middle;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .explan button span {margin-right: 3px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .explan button i {border: 1px solid #ccc; border-bottom: none; border-left: none; width: 4px; height: 4px; margin-bottom: 2px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .explan button.on i {border: 1px solid #ccc; border-top: none; border-right: none; margin-bottom: auto;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .addExplan {font-size: 12px; color: #999; margin-top:3px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .addExplan .more {display: inline-block; color: #fdfdfd; padding: 0 3px; border: 1px solid #609bb9; background: #609bb9; font-size: 11px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .addExplan .more:before {content: "자세히보기";}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .addExplan .more.moreTextCoupon:before {content: "쿠폰받기";}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .addExplan .more span {font-size: 0; display: none;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .contents .addExplan .more i {border: 1px solid #eaf5fb; border-bottom: none; border-right: none; width: 4px; height: 4px; margin: 0 3px 2px 3px;}
+.shosynPrice .priceSummary .priceDetail .detailTextBox .price {text-align: right !important;color: #333 !important; font-size: 13px !important;}
+
+.shosynPrice .shosynPriceWarp li.on .priceSummary {border: 1px solid #81a6b7;}
+.shosynPrice .shosynPriceWarp li.on .priceSummary .priceAll {background: #c7dde8; color: #677277;}
+.shosynPrice .shosynPriceWarp li.on .priceSummary .priceAll .purchase {background: #c7dde8;}
+.shosynPrice .shosynPriceWarp li.on .priceSummary .priceHave .moreButt button {}
+.shosynPrice .shosynPriceWarp li.on .priceSummary .priceHave .moreButt button i {border-bottom: 2px solid #fff; border-left: 2px solid #fff; border-top: none; border-right: none;}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox.on {background: #f5f9fb; border-top:1px solid #99aab5;}	
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox.on .buttonWrap	{}
+.shosynPrice .priceSummary .priceDetail .detailSpriceBox.on .buttonWrap i {border-bottom: 1px solid #2f2f2f !important; border-left: 1px solid #2f2f2f !important; border-right: none; border-top: none;}
+.shosynPrice .priceSummary .priceDetail .more {padding:0;}
+.shosynPrice .priceSummary .priceDetail .more button {border-bottom: none; border-right: none; margin-top: 1px;}
+
+.shosynPrice .more {padding: 0 5px;}
+
+/*과거 쇼신가 chart*/
+.shosynPrice .spriceChartWrap {background: #fdfbf8; margin: 13px 0 0 0; max-width: 500px; margin: 0 auto; margin-top: 13px;}
+.shosynPrice .spriceChartWrap button { width: 100%; font-weight: bold; text-align: center; line-height: 25px; color: #afa190; border-top: 1px solid #f5efe7;}
+.shosynPrice .spriceChartWrap button .moreArrow {border: 2px solid #afa190; border-bottom: none; border-left: none; vertical-align: text-top; margin-left: 5px;}
+.shosynPrice .spriceChart {margin: 13px 0 0 0;}
+.shosynPrice .spriceChart .title { background: #fdfbf8; color: #ab8f66; font-weight: bold; text-align: center; border-top: 1px solid #fbf4eb; padding-top: 10px;}
+.shosynPrice .spriceChart .canvasWrap {padding: 0 5px 5px 5px;}
+.shosynPrice .spriceChart .canvasWrap canvas { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+/*주문배송*/
+.deliveryListWarp .deliveryListMd ul li.shosynPrice {}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div { position: relative; display:inline-block; /* border: 1px dotted #468e39; */ /*background: #ebf9eb;*/ margin: 7px 0 5px 0; /*padding: 2px;*/ cursor:pointer;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div:after { position: absolute; top: 50%; right: -13px; width: 6px; height: 6px; margin-top: -3px; border: 2px solid #8eb990; border-top: none; border-left: none; transform: rotate(45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); content: "";}	
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div span { text-align: center; font-size: 9px; color: #468e39; background: #d5efd6; padding: 2px 1px 2px 3px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div span b { margin: 0; color: #468e39; font-size: 11px; margin-left: 4px; padding: 0 5px; background: #fff;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div span b em { font-style: normal; font-weight: normal; font-size: 0.9em;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div span.date { color: #92a78e; background: none;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div strong { font-size: 13px; color: #468e39; letter-spacing: -0.4px; margin-left: 3px;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div strong em { font-style: normal; font-weight: normal; font-size: 12px;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div span.soldout { position: absolute; top: 0; left: 0; width: 100%; color: #fff; font-size: 1em; font-weight: bold; text-align: center; background: rgba(0,0,0,0.5); height:inherit;}
+.deliveryListWarp .deliveryListMd ul li.shosynPrice div span.soldout b { display:inline; font-size:10px; color: #fff; font-weight: normal; background: none; vertical-align:text-top;}
