@@ -1,0 +1,47 @@
+<html lang="ko">
+<head>
+    <meta http-equiv=Content-Type content=text/html; charset=utf-8>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes,
+        initial-scale=1.0, maximum-scale=3.0"/>
+    <title>portal</title>
+    <script>
+        function fmf(dom)
+        {
+            const s = document.getElementById("mq").value.trim();
+            if(!s) return;
+
+            switch (dom) {
+            case 2:
+              window.location=`https://search.naver.com/search.naver?query=${s}`;
+                break;
+            case 6:
+              window.location=`https://www.google.co.kr/search?q=${s}`;
+                break;
+            default:
+                return;
+            }
+        }
+
+      window.addEventListener('load', () => {
+        const mq = document.getElementById('mq');
+        mq.focus();
+
+        mq.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            fmf(2);
+          }
+        });
+      });
+    </script>
+    <style>
+        body { background-color: #E1EEF4 }
+    </style>
+</head>
+<body>
+    <input type=text id=mq>
+    <a href=# onclick='fmf(2)'>네이버</a>
+    <a href=# onclick='fmf(6)'>구글</a>
+</body>
+</html>
